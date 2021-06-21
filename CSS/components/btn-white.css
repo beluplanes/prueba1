@@ -1,0 +1,26 @@
+.btn-white {
+	background-color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
+
+.btn-white:hover {
+  color: #F4F3EE;
+  background-color: #463F3A;
+  transition: color 0.3s ease;
+}
+
+.bnt-color{
+	color: #F4F3EE;
+    background-color: #463F3A;
+    padding: 15px 20px;
+	border-radius: 4px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
+

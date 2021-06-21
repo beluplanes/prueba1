@@ -1,0 +1,36 @@
+/*importing google fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://path/to/font-awesome/css/font-awesome.min.css");
+
+/*importing components files*/
+
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/btn-white.css");
+@import url("components/list-inline.css");
+
+
+/*general style rules*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin: 0px auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}

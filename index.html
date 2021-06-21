@@ -1,2 +1,127 @@
+<!DOCTYPE html>
+ <!-- my first web page - trying to coding a new web page for my friend's startup -->
+<!-- improvements: menu semanal -> menu style / link mercado pago / add carrito de compras -> son varios html linkeados al ppal -->
+
 <html>
+	<head>
+  		<title>Como en casa viandas Mendoza</title>
+  		<meta name="description" content="La mejor comida casera de Mendoza">
+ 		<meta charset="utf-8">
+ 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+ 		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,600;1,700&family=Montserrat:wght@300&family=Signika+Negative&display=swap" rel="stylesheet">
+ 		<link rel="stylesheet" href="CSS/style.css">
+	</head>
+
+	<body>
+  		<div class="banner">
+  			<div class="container">
+  				<h1>Como en casa viandas</h1>
+  				<h2>- Comida rica, sana y casera -</h2>
+  				<div class="card" id="card1">
+  					<a href="#pedido" class="btn-white" target="_blank">Hace tu pedido</a>
+  					<img src="images/logo.png" alt="logo">
+  					<a href="#contact" class="btn-white" target="_blank">Contactanos</a>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="container">
+  			<h1>Nosotras</h1>
+  			<div class="card">
+  				<img src="images/nosotras.png" alt="us">
+  				<p> Madre e hija comenzamos hace 3 años con este proyecto que ofrecía la posibilidad de comer rico y sano a través de recetas caseras preparadas con mucho amor, y la pandemia nos llevó a hacerlo un emprendimiento familiar y nuestra fuente de trabajo. Cada día crecemos más y queremos que seas parte de nuestra familia.</p>
+  			</div>
+  			<h1 class="tit">Zonas de entrega</h1>
+  			<div class="card" id="card2">
+  				<img src="images/mapa.png" alt="mapa">
+  				<p> Te llevamos la comida calentita o los pack para frezeer sin cargo en las zonas indicadas en el mapa </p>
+  			</div>
+  		</div>
+
+		<div class="container">
+			<h1 id="pedido">Menu Semanal</h1>
+			<div class="card" id="menu">
+			    <figure class="gallery-item">
+  					<img src="images/1.png" alt="locro"><figcaption class="img-title"> <h3>Locro</h3> <h4>Descripción del plato</h4> </figcaption>
+  				</figure>   
+  				 <figure class="gallery-item">
+  					<img src="images/2.png" alt="albóndigas con arroz"><figcaption class="img-title"> <h3>Albóndigas con arroz</h3> <h4>Descripción del plato</h4> </figcaption>
+  				</figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/3.png" alt="guiso"><figcaption class="img-title"> <h3>Guiso</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/4.png" alt="sorrentinos masa bicolor rellenos de jamón y muzzarella"><figcaption class="img-title"> <h3>Sorrentinos</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/5.png" alt="supremas pollo con ensalda de zukini, tomate y choclo"><figcaption class="img-title"> <h3>Supremas pollo</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/6.png" alt="fideos mediterráneos"><figcaption class="img-title"> <h3>Fideos mediterráneos</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/7.png" alt="arroz primavera"><figcaption class="img-title"> <h3>Arroz primavera</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/8.png" alt="torrejas de acelga con porotos y huevo"><figcaption class="img-title"> <h3>Torrejas de acelga con porotos y huevo</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/9.png" alt="fideos al wok"><figcaption class="img-title"> <h3>Fideos al wok</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/10.png" alt="pollo con puré"><figcaption class="img-title"> <h3>Pollo con puré</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/11.png" alt="cerdo relleno con verduras al horno"><figcaption class="img-title"> <h3>Cerdo con verduras</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/12.png" alt="tomates rellenos"><figcaption class="img-title"> <h3>Tomates rellenos</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/13.png" alt="lasagna"><figcaption class="img-title"> <h3>Lasagna</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  				 <figure class="gallery-item">
+  				 	<img src="images/14.png" alt="filet de merluza con puré mixto"><figcaption class="img-title"> <h3>Merluza con puré</h3> <h4>Descripción del plato</h4> </figcaption>
+  				 </figure> 
+  			</div>
+		</div>
+
+  		<div class="container">
+  			<h1>Packs para freezar</h1>
+  			<div class="card" id="card2">
+  				<p> Tené siempre a mano tu comida rica y saludable: Arma a elección tu pack de viandas para freezar</p>
+  				<p> 1. Elegí el pack de tu conveniencia: 5, 7 o 10.</p>
+  				<p> 2. Elegí las viandas que más te gusten. </p>
+  				<p> 3. Coordinas el día y horario de entrega, sin cargo adicional y listo! </p>
+  				<div class="card">
+  				<a href="#" class="bnt-color" target="_blank">Pack 5 viandas</a>
+  				<a href="#" class="bnt-color" target="_blank">Pack 7 viandas</a>
+  				<a href="#" class="bnt-color" target="_blank">Pack 10 viandas</a>
+  			    </div class="card">
+  			</div>
+  		</div>
+
+  		<div class="container">
+  			<h1 id="contact">Contactános</h1>
+			<div class="card">
+				<ul class="list-inline"> 
+					<li>  
+						<a href="https://www.instagram.com/como_en_casa_viandas/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+						</li>
+					<li> 
+						<a href="https://www.facebook.com/vivianacorletto" target="_blank">
+							<i class="fab fa-facebook-square"></i> 
+						</a>
+				    </li>
+					<li> 
+						<a href="#" target="_blank">
+							<i class="fab fa-whatsapp"></i> 
+						</a>
+					</li>
+				</ul>
+			</div>
+  		</div>
+
+	</body>
 </html>
